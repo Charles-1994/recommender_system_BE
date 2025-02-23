@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+submission/
+env.bak/
+venv.bak/
+pythonenv*
+
+# Virtual Environment
+.venv/
+.env/
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+*.exe
+staticfiles/
+media/
+
+# Logs and databases
+*.log
+logs/
+*.db
+*.sqlite
+*.sql
+*.dump
+
+# Test coverage
+.coverage
+htmlcov/
+.coverage.*
+.cache
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Local development
+settings/local.py
+local_settings.py
+
+# Dataset cache
+datasets/*.pkl
+*.csv.tmp
+
+# Package management
+*.tgz
+*.gz
+*.whl
+.tox/ 
